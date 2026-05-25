@@ -32,6 +32,7 @@ cloud-devops-platform/
 - system-health.sh: checks basic system information
 - disk-alert.sh: checks disk usage and writes alerts
 - ops-monitor.sh: combines monitoring, logging, and script listing
+- cleaup.sh: removes unwanted files.
 
 ## What I Learned
 - Shell script variables
@@ -59,3 +60,6 @@ Checks disk usage percentage and writes warning messages into a log file if usag
 
 ### ops-monitor.sh
 Main operational monitoring script that combines system information, disk alerting, script listing, and log generation.
+
+### cleanup.sh
+Removes temporary or unwanted files generated during testing and practice.
