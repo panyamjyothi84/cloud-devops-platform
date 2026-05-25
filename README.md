@@ -48,3 +48,14 @@ cloud-devops-platform/
 - Add Docker support
 - Add CI/CD pipeline
 - Add Terraform infrastructure
+
+## Scripts Overview
+
+### system-health.sh
+Checks basic system information such as date, current user, current directory, and disk usage.
+
+### disk-alert.sh
+Checks disk usage percentage and writes warning messages into a log file if usage is high.
+
+### ops-monitor.sh
+Main operational monitoring script that combines system information, disk alerting, script listing, and log generation.
